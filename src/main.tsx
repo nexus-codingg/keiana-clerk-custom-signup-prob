@@ -12,6 +12,7 @@ import IndexPage from './routes';
 import ContactPage from './routes/contact';
 import SignInPage from './routes/sign-in';
 import SignUpPage from './routes/sign-up';
+import SignUpEmailUsernamePasswordPage from './routes/sign-up-email-username-password';
 import DashboardPage from './routes/dashboard';
 import InvoicesPage from './routes/invoices';
 
@@ -24,6 +25,7 @@ const router = createBrowserRouter([
       { path: '/contact', element: <ContactPage /> },
       { path: '/sign-in/*', element: <SignInPage /> },
       { path: '/sign-up/*', element: <SignUpPage /> },
+      { path: '/sign-up-email-username-password', element: <SignUpEmailUsernamePasswordPage /> },
       {
         element: <DashboardLayout />,
         path: 'dashboard',
