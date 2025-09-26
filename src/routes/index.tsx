@@ -10,6 +10,9 @@ export default function IndexPage() {
             <Link to="/sign-up">Sign Up</Link>
           </li>
           <li>
+            <Link to="/sign-up-email-username-password">Sign Up (Email + Username + Password)</Link>
+          </li>
+          <li>
             <Link to="/sign-in">Sign In</Link>
           </li>
           <li>
